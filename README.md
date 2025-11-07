@@ -1,10 +1,10 @@
-# NBA_Draft_Analysis
+# AML-AT1-group-9
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-The goal of this study was to forecast NBA draft results using cutting-edge machine learning techniques. The objective of the job, which was presented as a binary classification issue, was to ascertain, using pre-draft statistics and background data, whether a player would be drafted or not.
+Building a model that will predict if a college basketball player will be drafted to join the NBA league based on his statistics for the current season.
 
 ## Project Organization
 
@@ -27,7 +27,7 @@ The goal of this study was to forecast NBA draft results using cutting-edge mach
 │                         `1.0-jqp-initial-data-exploration`.
 │
 ├── pyproject.toml     <- Project configuration file with package metadata for 
-│                         nba_draft_analysis and configuration for tools like black
+│                         aml_at1_group_9 and configuration for tools like black
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
 │
@@ -39,9 +39,9 @@ The goal of this study was to forecast NBA draft results using cutting-edge mach
 │
 ├── setup.cfg          <- Configuration file for flake8
 │
-└── nba_draft_analysis   <- Source code for use in this project.
+└── aml_at1_group_9   <- Source code for use in this project.
     │
-    ├── __init__.py             <- Makes nba_draft_analysis a Python module
+    ├── __init__.py             <- Makes aml_at1_group_9 a Python module
     │
     ├── config.py               <- Store useful variables and configuration
     │

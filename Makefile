@@ -2,8 +2,8 @@
 # GLOBALS                                                                       #
 #################################################################################
 
-PROJECT_NAME = NBA_Draft_Analysis
-PYTHON_VERSION = 3.10
+PROJECT_NAME = AML-AT1-group-9
+PYTHON_VERSION = 3.11.4
 PYTHON_INTERPRETER = python
 
 #################################################################################
@@ -40,6 +40,10 @@ format:
 
 
 
+## Run tests
+.PHONY: test
+test:
+	python -m pytest tests
 
 
 ## Set up Python interpreter environment
@@ -61,7 +65,7 @@ create_environment:
 ## Make dataset
 .PHONY: data
 data: requirements
-	$(PYTHON_INTERPRETER) nba_draft_analysis/dataset.py
+	$(PYTHON_INTERPRETER) aml_at1_group_9/dataset.py
 
 
 #################################################################################
