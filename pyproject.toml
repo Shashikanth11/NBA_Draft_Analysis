@@ -3,38 +3,50 @@ requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [project]
-name = "nba_draft_analysis"
+name = "aml_at1_group_9"
 version = "0.0.1"
-description = "The goal of this study was to forecast NBA draft results using cutting-edge machine learning techniques. The objective of the job, which was presented as a binary classification issue, was to ascertain, using pre-draft statistics and background data, whether a player would be drafted or not."
+description = "Building a model that will predict if a college basketball player will be drafted to join the NBA league based on his statistics for the current season."
 authors = [
-  { name = "Shashikanth Senthil Kumar" },
+  { name = "Group 9" },
 ]
-license = { file = "LICENSE" }
+
 readme = "README.md"
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License"
+    
 ]
 dependencies = [
     "loguru",
     "pip",
+    "pytest",
     "python-dotenv",
     "ruff",
     "tqdm",
     "typer",
+    "scikit-learn==1.5.1",
+    "pandas==2.2.2",
+    "jupyterlab==4.2.3",
+    "joblib==1.4.2",
+    "xgboost==2.1.0",
+    "hyperopt==0.2.7",
+    "lightgbm==4.4.0",
+    "lime==0.2.0.1",
+    "wandb==0.17.4",
+    "shash (>=0.1.0,<0.2.0)",
+    "optuna (>=4.5.0,<5.0.0)"
 ]
-requires-python = "~=3.10.0"
+requires-python = "==3.11.4"
 
 
 [tool.ruff]
 line-length = 99
-src = ["nba_draft_analysis"]
-include = ["pyproject.toml", "nba_draft_analysis/**/*.py"]
+src = ["aml_at1_group_9"]
+include = ["pyproject.toml", "aml_at1_group_9/**/*.py"]
 
 [tool.ruff.lint]
 extend-select = ["I"]  # Add import sorting
 
 [tool.ruff.lint.isort]
-known-first-party = ["nba_draft_analysis"]
+known-first-party = ["aml_at1_group_9"]
 force-sort-within-sections = true
 
