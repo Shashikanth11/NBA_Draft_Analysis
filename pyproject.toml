@@ -3,7 +3,7 @@ requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [project]
-name = "aml_at1_group_9"
+name = "NBA_Draft_Analysis"
 version = "0.0.1"
 description = "Building a model that will predict if a college basketball player will be drafted to join the NBA league based on his statistics for the current season."
 authors = [
@@ -40,13 +40,13 @@ requires-python = "==3.11.4"
 
 [tool.ruff]
 line-length = 99
-src = ["aml_at1_group_9"]
-include = ["pyproject.toml", "aml_at1_group_9/**/*.py"]
+src = ["NBA_Draft_Analysis"]
+include = ["pyproject.toml", "NBA_Draft_Analysis/**/*.py"]
 
 [tool.ruff.lint]
 extend-select = ["I"]  # Add import sorting
 
 [tool.ruff.lint.isort]
-known-first-party = ["aml_at1_group_9"]
+known-first-party = ["NBA_Draft_Analysis"]
 force-sort-within-sections = true
 
