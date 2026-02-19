@@ -1,4 +1,4 @@
-# AML-AT1-group-9
+# NBA_Draft_Analysis
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
@@ -26,8 +26,7 @@ Building a model that will predict if a college basketball player will be drafte
 │                         the creator's initials, and a short `-` delimited description, e.g.
 │                         `1.0-jqp-initial-data-exploration`.
 │
-├── pyproject.toml     <- Project configuration file with package metadata for 
-│                         aml_at1_group_9 and configuration for tools like black
+├── pyproject.toml     <- Project configuration file with package metadata for NBA_Draft_Analysis and configuration for tools like black
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
 │
@@ -39,9 +38,9 @@ Building a model that will predict if a college basketball player will be drafte
 │
 ├── setup.cfg          <- Configuration file for flake8
 │
-└── aml_at1_group_9   <- Source code for use in this project.
+└── NBA_Draft_Analysis   <- Source code for use in this project.
     │
-    ├── __init__.py             <- Makes aml_at1_group_9 a Python module
+    ├── __init__.py             <- Makes NBA_Draft_Analysis a Python module
     │
     ├── config.py               <- Store useful variables and configuration
     │
